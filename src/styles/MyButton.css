@@ -1,0 +1,165 @@
+:root {
+	--primary-color: hsla(257, 74%, 57%, 1);
+	--primary-color-hover: hsla(257, 54%, 45%, 1);
+	--primary-color-active: hsla(257, 52%, 36%, 1);
+	--primary-color-disabled: hsla(257, 72%, 92%, 1);
+	--white: hsla(0, 0%, 100%, 1);
+	--dark: hsla(0, 0%, 7%, 1);
+}
+.button {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	border: 0;
+	border-radius: 3em;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 1;
+	font-size: 16px;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+
+/* Primary */
+.button--primary {
+	color: var(--white);
+	background-color: var(--primary-color);
+}
+
+.button--primary:hover {
+	color: var(--white);
+	background-color: var(--primary-color-hover);
+}
+
+.button--primary:focus {
+	color: var(--white);
+	background-color: var(--primary-color);
+	outline: 2px solid rgba(17, 17, 17, 0.48);
+}
+
+.button--primary:active {
+	background-color: var(--primary-color-active);
+	outline: none;
+}
+
+.button--primary:disabled {
+	color: var(--white);
+	background-color: var(--primary-color-disabled);
+}
+
+/* Primary White */
+.button--primary-white {
+	color: var(--primary-color);
+	background-color: var(--white);
+}
+
+.button--primary-white:hover {
+	background-color: rgba(255, 255, 255, 0.88);
+}
+
+.button--primary-white:focus {
+	background-color: var(--white);
+	outline: 2px solid hsla(0, 0%, 7%, 0.48);
+}
+
+/* Secondary */
+
+.button--secondary {
+	color: var(--primary-color);
+	background-color: var(--white);
+	outline: 2px solid var(--primary-color);
+}
+
+.button--secondary:hover {
+	background-color: rgba(255, 255, 255, 0.88);
+}
+
+.button--secondary:focus {
+	outline: 2px solid hsla(0, 0%, 7%, 0.48);
+}
+
+/* Secondary White */
+
+.button--secondary-white {
+	color: var(--white);
+	background-color: var(--primary-color);
+	outline: 2px solid var(--white);
+}
+
+.button--secondary-white:hover,
+.button--secondary-white:active {
+	background-color: rgba(255, 255, 255, 0.12);
+}
+
+.button--secondary-white:focus {
+	background-color: var(--primary-color);
+	outline: 2px solid hsla(0, 0%, 7%, 0.48);
+}
+
+/* Flat */
+.button--flat {
+	color: var(--primary-color);
+	background-color: var(--white);
+}
+
+.button--flat:hover {
+	background-color: hsla(257, 74%, 57%, 0.04);
+}
+
+.button--flat:active {
+	background-color: hsla(257, 74%, 57%, 0.16);
+}
+
+.button--flat:focus {
+	outline: 2px solid hsla(0, 0%, 7%, 0.48);
+}
+
+/* Flat White */
+.button--flat-white {
+	color: var(--white);
+	background-color: var(--primary-color);
+}
+
+.button--flat-white:hover,
+.button--flat-white:active {
+	background-color: rgba(255, 255, 255, 0.12);
+}
+
+.button--flat-white:focus {
+	outline: 2px solid hsla(0, 0%, 7%, 0.48);
+}
+
+/* Secondary Dark */
+.button--secondary-dark {
+	color: var(--dark);
+	outline: 2px solid var(--dark);
+	background-color: var(--white);
+}
+
+.button--secondary-dark:hover {
+	background-color: rgba(17, 17, 17, 0.04);
+}
+
+.button--secondary-dark:active {
+	background-color: rgba(17, 17, 17, 0.12);
+}
+
+.button--secondary-dark:focus {
+	outline: 2px solid hsla(0, 0%, 7%, 0.48);
+}
+
+/* Loader button */
+.loader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Disabled buttons */
+.button--primary-white:disabled,
+.button--secondary:disabled,
+.button--secondary-white:disabled,
+.button--flat:disabled,
+.button--flat-white:disabled,
+.button--secondary-dark:disabled {
+	opacity: 0.56;
+}
