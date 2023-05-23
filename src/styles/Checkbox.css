@@ -1,0 +1,57 @@
+:root {
+	--primary-color: hsla(257, 74%, 57%, 1);
+	--primary-color-hover: hsla(257, 54%, 45%, 1);
+	--primary-color-active: hsla(257, 52%, 36%, 1);
+	--primary-color-disabled: hsla(257, 72%, 92%, 1);
+	--white: hsla(0, 0%, 100%, 1);
+	--dark: hsla(0, 0%, 7%, 1);
+}
+
+.checkbox-container {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 1.6rem;
+	display: flex;
+	align-items: center;
+}
+
+.checkbox {
+	width: 2.4rem;
+	height: 2.4rem;
+	margin-right: 1rem;
+	border: 1px solid hsla(0, 0%, 83%, 1);
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.checkbox:hover {
+	background-color: #fafafa;
+}
+
+.checkbox:active {
+	background-color: #f1f1f1;
+}
+
+.checkbox-checked {
+	background-color: var(--primary-color);
+	color: white;
+}
+
+.checkbox-checked:hover {
+	background-color: var(--primary-color-hover);
+}
+
+.checkbox-error {
+	background-color: #f9e3e3;
+}
+.checkbox-error-text {
+	color: hsla(2, 66%, 58%, 1);
+}
+
+.checkbox-disabled,
+.checkbox-disabled-text {
+	opacity: 0.5;
+	pointer-events: none;
+}
