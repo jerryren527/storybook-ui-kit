@@ -1,7 +1,7 @@
 import Badge from "../components/Badge";
 
 export default {
-	title: "Badge",
+	title:"components/Badge",
 	component: Badge,
 	tags: ["autodocs"],
 };
