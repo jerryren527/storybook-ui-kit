@@ -1,12 +1,13 @@
 .contextMenu-container {
 	box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
-	width: 244px;
+	width: 24.4rem;
 	font-family: "Roboto", sans-serif;
+	font-size: 1.6rem;
 	font-weight: 400;
 }
 
 .contextMenu-item {
-	padding: 10px 16px;
+	padding: 1rem 1.6rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;

@@ -1,7 +1,7 @@
 import ContextMenu from "../components/ContextMenu";
 
 export default {
-	title: "ContextMenu",
+	title:"components/ContextMenu",
 	component: ContextMenu,
 	tags: ["autodocs"],
 	args: {
