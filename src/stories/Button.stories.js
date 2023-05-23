@@ -1,30 +1,53 @@
 import Button from "../components/Button";
 
 export default {
-	title: "Components/Button",
+	title:"components/Button",
 	component: Button,
-	// Define the type of args. And to define actions, such as for onClick. Button component is passed a event halder called 'handleClick'. The value of action can be any custom string.
-	argTypes: { handleClick: { action: "handleClick" } },
 	tags: ["autodocs"],
+	parameters: {
+		backgrounds: {
+			values: [
+				{ name: "white", value: "#fff" },
+				{ name: "purple", value: "hsla(257, 74%, 57%, 1)" },
+			],
+		},
+	},
 };
 
-// create a function that returns our component with args passed into it
 const Template = (args) => <Button {...args} />;
 
-// export a function that returns our component
-// export const Red = () => <Button label="Press me" backgroundColor="red" />;
-
-// Copy the Template function with .bind({})
-export const Red = Template.bind({});
-Red.args = {
-	backgroundColor: "red",
-	label: "Press Me",
-	size: "md",
+export const Primary = Template.bind({});
+Primary.args = {
+	label: "Primary",
+	primary: true,
+	white: false,
+	flat: false,
+	dark: false,
+	disabled: false,
+	loader: false,
+};
+export const Secondary = Template.bind({});
+Secondary.args = {
+	...Primary.args,
+	label: "Secondary",
+	primary: false,
 };
 
-export const Green = Template.bind({});
-Green.args = {
-	backgroundColor: "green",
-	label: "Press Me",
-	size: "md",
+export const Flat = Template.bind({});
+Flat.args = {
+	...Primary.args,
+	label: "Flat",
+	flat: true,
+};
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+	...Primary.args,
+	disabled: true,
+};
+
+export const Loader = Template.bind({});
+Loader.args = {
+	...Primary.args,
+	loader: true,
 };
