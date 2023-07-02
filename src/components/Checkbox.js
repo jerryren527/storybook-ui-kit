@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import "../styles/Checkbox.css";
 
-export default function Checkbox({ checked, text, indeterminate, error, disabled }) {
-	const [isChecked, setIsChecked] = useState(checked);
+export default function Checkbox({ text, indeterminate, error, disabled }) {
+	const [isChecked, setIsChecked] = useState(false);
 
 	const handleCheckboxChange = () => {
 		setIsChecked(!isChecked);
@@ -57,7 +57,6 @@ export default function Checkbox({ checked, text, indeterminate, error, disabled
 }
 
 Checkbox.propTypes = {
-	checked: PropTypes.bool,
 	text: PropTypes.string,
 	indeterminate: PropTypes.bool,
 	error: PropTypes.bool,
