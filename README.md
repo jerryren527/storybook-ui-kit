@@ -1,6 +1,6 @@
 # Storybook UI Kit
 
-This repository contains a collection of Storybook stories for React components, providing a UI Kit for building web applications. The code in this repository is an implementation of the designs found in the following Figma community link: [Browk UI KIT](https://www.figma.com/community/file/817436609226882468/Browk-UI-KIT).
+This repository contains a collection of Storybook stories for React components, providing a UI Kit for building web applications. The code in this repository is an implementation of the designs found in the following Figma community link: [Browk UI KIT](https://www.figma.com/community/file/817436609226882468/Browk-UI-KIT){:target="_blank"}.
 
 ## What is Storybook?
 
@@ -8,7 +8,7 @@ Storybook is an open-source tool for developing UI components in isolation. It a
 
 ## Live Demo
 
-To view and interact with the Storybook UI Kit, click here: [Live Demo](https://storybook-ui-kit.netlify.app/)
+To view and interact with the Storybook UI Kit, click here: [Live Demo](https://storybook-ui-kit.netlify.app/){:target="_blank"}
 
 
 ## Project Structure
@@ -43,4 +43,4 @@ storybook-ui-kit/
 
 ## Acknowledgments
 
-The designs used in this project are based on the work available in the [Browk UI KIT](https://www.figma.com/community/file/817436609226882468/Browk-UI-KIT) Figma community link. Feel free to explore the components in the Storybook UI Kit and use them as a foundation for building your own web applications.
+The designs used in this project are based on the work available in the [Browk UI KIT](https://www.figma.com/community/file/817436609226882468/Browk-UI-KIT){:target="_blank"} Figma community link. Feel free to explore the components in the Storybook UI Kit and use them as a foundation for building your own web applications.
