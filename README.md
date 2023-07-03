@@ -1,6 +1,6 @@
 # Storybook UI Kit
 
-This repository contains a collection of Storybook stories for React components, providing a UI Kit for building web applications. The code in this repository is an implementation of the designs found in the following Figma community link: [Browk UI KIT](https://www.figma.com/community/file/817436609226882468/Browk-UI-KIT){:target="_blank"}.
+This repository contains a collection of Storybook stories for React components, providing a UI Kit for building web applications. The code in this repository is an implementation of the designs found in the following Figma community link: <a href="https://www.figma.com/community/file/817436609226882468/Browk-UI-KIT" target="_blank">Browk UI KIT</a>
 
 ## What is Storybook?
 
